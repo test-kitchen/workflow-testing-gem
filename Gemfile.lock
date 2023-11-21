@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    workflow-testing (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  workflow-testing!
+
+BUNDLED WITH
+   2.4.10
