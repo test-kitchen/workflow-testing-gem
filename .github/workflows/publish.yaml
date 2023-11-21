@@ -31,6 +31,6 @@ jobs:
       - name: Build and publish to RubyGems
         uses: actionshub/publish-gem-to-rubygems@main
         if: ${{ steps.release.outputs.release_created }}
-        env:
+        with:
           token: ${{ secrets.RUBYGEMS_TOKEN }}
           owner: ${{ secrets.OWNER }}
