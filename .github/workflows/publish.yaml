@@ -15,6 +15,7 @@ jobs:
           release-type: ruby
           package-name: workflow-testing-gem
           version-file: lib/kitchen/driver/version.rb
+          token: ${{ secrets.PORTER_GITHUB_TOKEN }}
 
       - name: Checkout
         uses: actions/checkout@v4
