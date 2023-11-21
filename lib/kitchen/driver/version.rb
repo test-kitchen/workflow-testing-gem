@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module Kitchen
   module Driver
-    WORKFLOW_TESTING_VERSION = "0.0.1".freeze
+    WORKFLOW_TESTING_VERSION = "0.0.1"
   end
 end
