@@ -32,17 +32,18 @@ jobs:
       - uses: r7kamura/rubocop-problem-matchers-action@v1
       - run: bundle exec chefstyle
 
-  unit:
-    name: Unit test on Ruby ${{ matrix.ruby }}
-    needs: [yamllint, chefstyle]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby: ["3.1"]
-    steps:
-      - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
-      - run: bundle exec rake spec
+  # Normally we would enable this but this is a stub gem without any code
+  # unit:
+  #   name: Unit test on Ruby ${{ matrix.ruby }}
+  #   needs: [yamllint, chefstyle]
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     matrix:
+  #       ruby: ["3.1"]
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - uses: ruby/setup-ruby@v1
+  #       with:
+  #         ruby-version: ${{ matrix.ruby }}
+  #         bundler-cache: true
+  #     - run: bundle exec rake spec
