@@ -33,4 +33,3 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         with:
           token: ${{ secrets.RUBYGEMS_TOKEN }}
-          owner: ${{ secrets.OWNER }}
