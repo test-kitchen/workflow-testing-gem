@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.1...v1.0.2) (2023-11-22)
+
+
+### Bug Fixes
+
+* Remove incorrect input from RubyGems publish ([#11](https://github.com/test-kitchen/workflow-testing-gem/issues/11)) ([2790737](https://github.com/test-kitchen/workflow-testing-gem/commit/2790737dc5dceb1e3d50ba05a85b70bf0b6e922a))
+
 ## [1.0.1](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.0...v1.0.1) (2023-11-22)
 
 

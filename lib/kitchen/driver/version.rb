@@ -2,6 +2,6 @@
 
 module Kitchen
   module Driver
-    WORKFLOW_TESTING_VERSION = "1.0.1"
+    WORKFLOW_TESTING_VERSION = "1.0.2"
   end
 end
