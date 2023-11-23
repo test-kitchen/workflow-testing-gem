@@ -32,4 +32,4 @@ jobs:
         uses: actionshub/publish-gem-to-rubygems@main
         if: ${{ steps.release.outputs.release_created }}
         with:
-          token: ${{ secrets.RUBYGEMS_TOKEN }}
+          token: ${{ secrets.RUBYGEMS_API_KEY }}
