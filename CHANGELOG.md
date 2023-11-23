@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.6...v1.0.7) (2023-11-23)
+
+
+### Bug Fixes
+
+* RUBYGEMS_API_KEY ([#21](https://github.com/test-kitchen/workflow-testing-gem/issues/21)) ([ee56fb7](https://github.com/test-kitchen/workflow-testing-gem/commit/ee56fb7c40863b62cda495ee8a6aa99f1a827add))
+
 ## [1.0.6](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.5...v1.0.6) (2023-11-23)
 
 
