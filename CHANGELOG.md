@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.4](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.3...v1.0.4) (2023-11-23)
+
+
+### Bug Fixes
+
+* README ([#15](https://github.com/test-kitchen/workflow-testing-gem/issues/15)) ([ef77c7d](https://github.com/test-kitchen/workflow-testing-gem/commit/ef77c7dc0da7ae5f4a2bc429b8586368e8c2f21d))
+* target ruby version ([508d77b](https://github.com/test-kitchen/workflow-testing-gem/commit/508d77bf47d433ff38a3aff3765a92b94c651631))
+
 ## [1.0.3](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.2...v1.0.3) (2023-11-23)
 
 
