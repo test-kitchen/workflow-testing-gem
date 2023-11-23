@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.5...v1.0.6) (2023-11-23)
+
+
+### Bug Fixes
+
+* yolo yoyo ([#19](https://github.com/test-kitchen/workflow-testing-gem/issues/19)) ([232e6c5](https://github.com/test-kitchen/workflow-testing-gem/commit/232e6c5641e3ae472945b8eafbcd42f6fdf0731c))
+
 ## [1.0.5](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.4...v1.0.5) (2023-11-23)
 
 
