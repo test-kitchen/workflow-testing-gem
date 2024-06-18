@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.8...v1.0.9) (2024-06-18)
+
+
+### Bug Fixes
+
+* release please deprecation ([#26](https://github.com/test-kitchen/workflow-testing-gem/issues/26)) ([ba2a78e](https://github.com/test-kitchen/workflow-testing-gem/commit/ba2a78e60c4b876df94858862131e22ca3201fea))
+
 ## [1.0.8](https://github.com/test-kitchen/workflow-testing-gem/compare/v1.0.7...v1.0.8) (2024-06-18)
 
 
