@@ -17,13 +17,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require 'spec_helper'
-require 'kitchen/driver/version'
+require "spec_helper"
+require "kitchen/driver/version"
 
 describe Kitchen::Driver::WORKFLOW_TESTING_VERSION do
-  let(:expected_version) { '1.0.0' } # replace with your expected version
+  let(:expected_version) { "1.0.0" } # replace with your expected version
 
-  it 'has the correct version' do
+  it "has the correct version" do
     expect(Kitchen::Driver::WORKFLOW_TESTING_VERSION::STRING).to eq(expected_version)
   end
 end
