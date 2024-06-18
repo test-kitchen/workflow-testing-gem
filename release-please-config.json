@@ -1,7 +1,7 @@
 {
   "packages": {
     ".": {
-      "package-name": "workflow-testing",
+      "package-name": "workflow-testing-gem",
       "changelog-path": "CHANGELOG.md",
       "release-type": "ruby",
       "include-component-in-tag": false,
