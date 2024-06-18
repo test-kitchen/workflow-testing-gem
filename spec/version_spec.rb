@@ -19,9 +19,13 @@ require "spec_helper"
 require "kitchen/driver/version"
 
 describe Kitchen::Driver::WORKFLOW_TESTING_VERSION do
-  let(Kitchen::Driver::WORKFLOW_TESTING_VERSION) { "1.0.0" } # replace with your expected version
+  let(:expected_version) { "1.0.1" } # replace with your expected version
+
+  before do
+    allow(Kitchen::Driver::WORKFLOW_TESTING_VERSION).to receive(:STRING).and_return(expected_version)
+  end
 
   it "has the correct version" do
-    expect(Kitchen::Driver::WORKFLOW_TESTING_VERSION::STRING).to eq("1.0.0")
+    expect(Kitchen::Driver::WORKFLOW_TESTING_VERSION::STRING).to eq(expected_version)
   end
 end
