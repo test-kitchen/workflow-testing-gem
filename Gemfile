@@ -2,8 +2,7 @@
 
 source "https://rubygems.org"
 
-gemspec
-
+gemspec development_group: :test
 group :test do
   gem "rake"
   gem "rspec", ">= 3.2"
