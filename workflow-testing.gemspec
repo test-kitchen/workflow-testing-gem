@@ -4,6 +4,7 @@ require "kitchen/driver/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "workflow-testing"
+  spec.required_ruby_version = ">= 3.1"
   spec.version       = Kitchen::Driver::WORKFLOW_TESTING_VERSION
   spec.authors       = ["Dan Webb"]
   spec.email         = ["@gmail.com"]
